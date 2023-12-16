@@ -77,6 +77,7 @@ const Navbar = () => {
                                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                                     <Typography textAlign="center">{page}</Typography>
                                 </MenuItem>
+                                
                             ))}
                         </Menu>
                     </Box>
