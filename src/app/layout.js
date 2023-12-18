@@ -3,6 +3,7 @@ import './globals.css'
 import Footer from '@/components/shared/Footer'
 import TopNavbar from '@/components/shared/TopNavbar'
 import MiddleNavbar from '@/components/shared/MiddleNavbar'
+import Banner from '@/components/Banner/page'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,10 +14,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+      <html lang="en">
           <body className={inter.className}>
               <TopNavbar></TopNavbar>
               <MiddleNavbar></MiddleNavbar>
+              <Banner></Banner>
               <Footer></Footer>
               {children}
           </body>

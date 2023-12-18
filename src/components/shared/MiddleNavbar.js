@@ -12,7 +12,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import logo from '@/assets/logo icons/heartbeat.gif'
+import logo from '@/assets/logo icons/heartbeat.png'
 import Image from 'next/image';
 import Link from 'next/link';
 import { styled, alpha } from '@mui/material/styles';
@@ -98,7 +98,7 @@ const MiddleNavbar = () => {
     };
 
     return (
-        <AppBar position="static" color="transparent" sx={{ backdropFilter: "blur(20px)" }}>
+        <AppBar position="sticky" color="transparent" sx={{ backdropFilter: "blur(20px)" }}>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     
