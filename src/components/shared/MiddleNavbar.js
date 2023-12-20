@@ -154,7 +154,7 @@ const MiddleNavbar = () => {
                     >
                         Medi
                     </Typography>
-                    <Image height={60} width={60} src={logo}></Image>
+                    <Image height={50} width={50} src={logo}></Image>
                     
                     <Typography
                         variant="h5"

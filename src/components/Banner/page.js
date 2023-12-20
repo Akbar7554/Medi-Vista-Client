@@ -62,7 +62,7 @@ const Banner = () => {
                     <Image src={Banner4} alt='Banner4' style={{ height: "550px", }}></Image>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image src={Banner5} alt='Banner5' objectFit='cover' style={{ height: "550px" }}></Image>
+                    <Image src={Banner5} alt='Banner5' style={{ height: "550px" }}></Image>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image src={Banner6} alt='Banner6' style={{ height: "550px" }}></Image>
